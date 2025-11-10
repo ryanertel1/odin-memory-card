@@ -1,0 +1,17 @@
+.tileCard {
+    display: grid;
+    grid-template-columns: 1 fr;
+    grid-template-rows: 5fr 1fr;
+    background-color: aqua;
+    height: 225px;
+    width: 150px;
+    border-radius: 3px;
+    border-color: black;
+    border: solid;
+    justify-items: center;
+    align-items: center;
+}
+
+img {
+    width: 140px;
+}
