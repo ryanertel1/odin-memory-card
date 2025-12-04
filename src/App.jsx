@@ -12,10 +12,8 @@ function App() {
 
   const { pokemon, setPokemon, getPokemonGroup } = pokemonHelper();
 
-  //initializeGame(4);
-
   const handleStartClick = () => {
-    initializeGame(4);
+    initializeGame(8);
   }
 
   return (
