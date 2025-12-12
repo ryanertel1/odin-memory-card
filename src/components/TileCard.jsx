@@ -1,12 +1,8 @@
 import '../styles/TileCard.css';
 
-const TileCard = ({ name, image }) => {
-    const handleClick = () => {
-        console.log('clicked');
-    }
-
+const TileCard = ({ name, image, onChildClick }) => {
     return(
-        <div className='tileCard'>
+        <div className='tileCard' onClick={() => onChildClick(name)}>
             <img src={image}/>
             {name}
         </div>

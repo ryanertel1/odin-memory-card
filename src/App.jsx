@@ -7,7 +7,6 @@ function App() {
   const initializeGame = async (amount) => {
     const randomPokemon = getPokemonGroup(amount);
     setPokemon(await randomPokemon)
-    //console.log(randomPokemon);
   };
 
   const { pokemon, setPokemon, getPokemonGroup } = pokemonHelper();
