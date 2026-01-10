@@ -19,7 +19,7 @@ function App() {
     <>
       <div>
         <button onClick={handleStartClick}>Start Game</button>
-        <GameController pokemonGroup={pokemon}></GameController>
+        <GameController pokemonGroup={pokemon} restartGame={handleStartClick}></GameController>
       </div>
     </>
   )
